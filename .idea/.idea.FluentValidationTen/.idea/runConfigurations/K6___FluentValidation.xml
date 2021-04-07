@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="K6 - FluentValidation" type="RunNativeExe" factoryName="Native Executable">
+    <option name="EXE_PATH" value="/usr/local/bin/k6" />
+    <option name="PROGRAM_PARAMETERS" value="run --vus 10 --duration 30s script.js" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+    <option name="PASS_PARENT_ENVS" value="1" />
+    <envs>
+      <env name="ENDPOINT" value="fluent-validation" />
+    </envs>
+    <option name="USE_EXTERNAL_CONSOLE" value="0" />
+    <method v="2">
+      <option name="Build Solution" enabled="true" />
+    </method>
+  </configuration>
+</component>

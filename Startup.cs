@@ -34,7 +34,7 @@ namespace FluentValidationTen
             // add DataAnnotations validation
             services
                 .AddMvc()
-                //.AddFluentValidation()
+                .AddFluentValidation()
                 .AddDataAnnotationsLocalization();
             
             services.AddEntityFrameworkSqlite();
