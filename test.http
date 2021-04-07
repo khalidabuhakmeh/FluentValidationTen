@@ -1,0 +1,27 @@
+###
+
+# curl -X POST "https://localhost:5001/fluent-validation" -H  "accept: */*" -H  "Content-Type: application/json" -d "{\"username\":\"Mona.Raynor_500\",\"password\":\"\",\"passwordConfirmation\":\"\",\"subscriptionLevel\":\"\"}"
+POST https://localhost:5001/fluent-validation
+accept: */*
+Content-Type: application/json
+
+{
+  "username": "Mona.Raynor_500",
+  "password": "",
+  "passwordConfirmation": "",
+  "subscriptionLevel": ""
+}
+
+###
+
+POST https://localhost:5001/data-annotations
+accept: */*
+Content-Type: application/json
+
+{
+  "username": "Mona.Raynor_500",
+  "password": "",
+  "passwordConfirmation": "",
+  "subscriptionLevel": ""
+}
+
