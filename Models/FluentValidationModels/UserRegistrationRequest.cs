@@ -30,7 +30,7 @@ namespace FluentValidationTen.Models.FluentValidationModels
 
             RuleFor(m => m.Username).NotEmpty();
             RuleFor(m => m.Password).NotEmpty();
-            RuleFor(m => m.PasswordConfirmation).Matches(m => m.Password);
+            RuleFor(m => m.PasswordConfirmation).Equal(m => m.Password);
             RuleFor(m => m.SubscriptionLevel).Must(BeInSubscriptionLevels);
         }
 
