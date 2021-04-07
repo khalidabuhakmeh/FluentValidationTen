@@ -55,7 +55,7 @@ and dotTrace Profile.
 ## Data Annotations
 
 ```console
-         /\      |‾‾| /‾‾/   /‾‾/   
+          /\      |‾‾| /‾‾/   /‾‾/   
      /\  /  \     |  |/  /   /  /    
     /  \/    \    |     (   /   ‾‾\  
    /          \   |  |\  \ |  (‾)  | 
@@ -93,4 +93,4 @@ and dotTrace Profile
 
 ## Conclusions
 
-Data Annotations seems to have better throughput, but ultimately not by much. The CPU time spent in FluentValidation is also a bit longer. Ultimately the biggest bottlenecks will be the type of validation, with both frameworks being hindered by the database call. 
+Data Annotations seems to have better throughput, but ultimately not by much. The CPU time spent in FluentValidation is also a bit longer. Ultimately the biggest bottlenecks will be the **kind** of validation, with both frameworks being hindered by the database call. 
